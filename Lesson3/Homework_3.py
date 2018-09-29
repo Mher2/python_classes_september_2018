@@ -38,7 +38,7 @@ def func3(x):
 
 prime_list = prime_numbers_list(100)
 # Reduce function!
-sum_of_prime_numbers1 = reduce(func1, prime_list)     # Why 0 is not passed through function but in lambda function passed?
+sum_of_prime_numbers1 = reduce(func1, prime_list)  # Why 0 is not passed through function but in lambda function passed?
 sum_of_prime_numbers2 = reduce(lambda x, y: x + y, prime_list)
 print(f'sum_of_prime_numbers1 = {sum_of_prime_numbers1}')
 print(f'sum_of_prime_numbers2 = {sum_of_prime_numbers2}')
